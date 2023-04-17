@@ -6,4 +6,9 @@ public class Product {
     private double price;
     private Size size;
 
+    public Product(String description, double price, Size size) {
+        this.description = description;
+        this.price = price;
+        this.size = size;
+    }
 }
